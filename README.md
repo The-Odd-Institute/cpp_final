@@ -20,24 +20,42 @@ For this assignment, you will work in teams of 2 or 3 to develop a simple textua
    - **System Manager**: Manage systems and their interactions with entities and components.
 
 2. **Basic Systems**
-   - **Input System**: Handle user input and convert it into game actions.
-   - **Render System**: Output the current game state to the console.
-   - **Movement System**: Update entity positions based on user input or predefined behavior.
-   - **Health System**: Manage health-related components and interactions (e.g., damage, healing).
+You must include at least 5 systems.
+For each system, you have to analyze, understand and include purpose, required components and functionality. Example systems include. 
+- **Input System**: Handle user input and convert it into game actions.
+- **Render System**: Output the current game state to the console.
+- **Movement System**: Update entity positions based on user input or predefined behavior.
+- **Health System**: Manage health-related components and interactions (e.g., damage, healing).
+- **Collision System**: Detect and respond to collisions between entities.
+- **AI System**: Control non-player character (NPC) behaviors and decision-making processes.
+- **Inventory System**: Manage player and NPC inventories, including item pickup, drop, and use.
+- **Audio System**: Handle sound effects and background music based on game events.
+- **Animation System**: Update and manage animations for entities.
+- **Physics System**: Simulate physical interactions, such as gravity and forces, on entities.
+- **Lighting System**: Calculate and apply lighting effects to the game environment.
+- **Quest System**: Track and manage the state of quests and missions in the game.
+- **Dialogue System**: Manage and display dialogues between characters.
+- **Skill System**: Handle character skills, abilities, and their cooldowns.
+- **Resource Gathering System**: Manage the collection and use of resources (e.g., mining, logging).
+- **Crafting System**: Handle the creation of items from raw materials.
+- **Combat System**: Manage combat mechanics, including attack, defense, and special moves.
+- **Weather System**: Simulate and update weather conditions in the game world.
+- **Networking System**: Handle multiplayer interactions, including synchronization of game state across clients.
+- **Save/Load System**: Manage saving and loading of game state to/from persistent storage.
 
-3. **Game Components**
+4. **Game Components**
    - **Position Component**: Store the position of an entity.
    - **Velocity Component**: Store the velocity of an entity (if applicable).
    - **Health Component**: Store the health of an entity.
    - **Name Component**: Store the name or description of an entity.
 
-4. **Game Implementation**
+5. **Game Implementation**
    - Create a simple game that uses the engine. Examples include:
      - A text-based adventure game where the player can navigate through different rooms and interact with objects.
      - A simple RPG with basic combat mechanics.
      - Any other creative idea that fits within the textual interface constraint.
 
-5. **User Interaction**
+6. **User Interaction**
    - Allow users to input commands to control the game (e.g., move, attack, pick up items).
    - Provide clear and informative text output to guide the player through the game.
 
@@ -57,6 +75,11 @@ For this assignment, you will work in teams of 2 or 3 to develop a simple textua
 5. **Documentation**:
    - Document the code to explain the design decisions and functionality.
    - Provide a user guide to explain how to play the game.
+
+
+
+
+
 
 #### Submission
 
