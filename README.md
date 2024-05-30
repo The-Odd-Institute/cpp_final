@@ -18,44 +18,72 @@ For this assignment, you will work in teams of 2 or 3 to develop a simple textua
    - **Entity Manager**: Manage creation and destruction of entities.
    - **Component Manager**: Handle component storage and retrieval.
    - **System Manager**: Manage systems and their interactions with entities and components.
+      - Within the engine, the user should be able to create new game objects and copy, modify, and delete such game objects.
+      - The user should also be able to add and remove components from game objects.
+      - The engine should allow for the creation of default entities (such as one that would create a specific shape or character)
+      - The engine should enable listing and searching game objects by various techniques such as listing by layer, by tag, by name, by type, or those with certain component types.
+      - Entities should have a name and ID associated with them.
+      - Entities should be order-able and group-able. 
+      - Components should be interchangeable. (when fetching an ordered list of components, we should be able to swap any specific one for another (subject to that operation being valid). 
 
 2. **Basic Systems**
-You must include at least 5 systems.
-For each system, you have to analyze, understand and include purpose, required components and functionality. Example systems include. 
-- **Input System**: Handle user input and convert it into game actions.
-- **Render System**: Output the current game state to the console.
-- **Movement System**: Update entity positions based on user input or predefined behavior.
-- **Health System**: Manage health-related components and interactions (e.g., damage, healing).
-- **Collision System**: Detect and respond to collisions between entities.
-- **AI System**: Control non-player character (NPC) behaviors and decision-making processes.
-- **Inventory System**: Manage player and NPC inventories, including item pickup, drop, and use.
-- **Audio System**: Handle sound effects and background music based on game events.
-- **Animation System**: Update and manage animations for entities.
-- **Physics System**: Simulate physical interactions, such as gravity and forces, on entities.
-- **Lighting System**: Calculate and apply lighting effects to the game environment.
-- **Quest System**: Track and manage the state of quests and missions in the game.
-- **Dialogue System**: Manage and display dialogues between characters.
-- **Skill System**: Handle character skills, abilities, and their cooldowns.
-- **Resource Gathering System**: Manage the collection and use of resources (e.g., mining, logging).
-- **Crafting System**: Handle the creation of items from raw materials.
-- **Combat System**: Manage combat mechanics, including attack, defense, and special moves.
-- **Weather System**: Simulate and update weather conditions in the game world.
-- **Networking System**: Handle multiplayer interactions, including synchronization of game state across clients.
-- **Save/Load System**: Manage saving and loading of game state to/from persistent storage.
+- You must include at least 5 systems.
+- For each system, you have to analyze, understand, and include purpose, required components, and functionality. Example systems include. 
+      - **Input System**: Handle user input and convert it into game actions.
+      - **Render System**: Output the current game state to the console.
+      - **Movement System**: Update entity positions based on user input or predefined behavior.
+      - **Health System**: Manage health-related components and interactions (e.g., damage, healing).
+      - **Collision System**: Detect and respond to collisions between entities.
+      - **AI System**: Control non-player character (NPC) behaviors and decision-making processes.
+      - **Inventory System**: Manage player and NPC inventories, including item pickup, drop, and use.
+      - **Audio System**: Handle sound effects and background music based on game events.
+      - **Animation System**: Update and manage animations for entities. This could include an animation keyframe interpolator. 
+      - **Physics System**: Simulate physical interactions, such as gravity and forces, on entities.
+      - **Lighting System**: Calculate and apply lighting effects to the game environment.
+      - **Quest System**: Track and manage the state of quests and missions in the game.
+      - **Dialogue System**: Manage and display dialogues between characters.
+      - **Skill System**: Handle character skills, abilities, and their cooldowns.
+      - **Resource Gathering System**: Manage the collection and use of resources (e.g., mining, logging).
+      - **Crafting System**: Handle the creation of items from raw materials.
+      - **Combat System**: Manage combat mechanics, including attack, defense, and special moves.
+      - **Weather System**: Simulate and update weather conditions in the game world.
+      - **Networking System**: Handle multiplayer interactions, including synchronization of game state across clients.
+      - **Save/Load System**: Manage saving and loading of game state to/from persistent storage.
 
 4. **Game Components**
-   - **Position Component**: Store the position of an entity.
-   - **Velocity Component**: Store the velocity of an entity (if applicable).
-   - **Health Component**: Store the health of an entity.
-   - **Name Component**: Store the name or description of an entity.
+- You must include at least 8 components.
+- You must analyze, understand, and include each component's purpose, dependent components, and functionality. Example components include. 
+   - **Position Component**: Stores the position of an entity in the game world (e.g., x, y, z coordinates).
+   - **Velocity Component**: Stores the velocity of an entity, including speed and direction.
+   - **Health Component**: Stores the health value of an entity, including current and maximum health.
+   - **Name Component**: Stores the name or description of an entity.
+   - **Sprite Component**: Stores information about the visual representation of an entity, such as the sprite or image to be rendered.
+   - **Collider Component**: Stores collision-related data, such as shape, size, and collision boundaries.
+   - **RigidBody Component**: Stores physical properties like mass, drag, and force for physics calculations.
+   - **Input Component**: Stores data related to user input functions, such as the action that must be executed upon receiving a key pressed.
+   - **Script Component**: Stores data related to a script that can be applied to an entity. 
+   - **Inventory Component**: Stores a list of items or resources that an entity possesses.
+   - **AudioSource Component**: Stores data related to sound effects or music that an entity can produce.
+   - **Animation Component**: Stores data for managing animations, such as current frame, animation speed, and state.
+   - **Weapon Component**: Stores weapons-related data, such as damage, range, and ammunition.
+   - **Light Component**: Stores data related to lighting, such as light type, intensity, and color.
+   - **Shading Component**: Stores data related to lighting, such as received lights, excluded/included lights, color, etc. 
+   - **Dialogue Component**: Stores dialogue scripts or lines associated with an entity.
+   - **Skill Component**: Stores character skills or abilities data, including cooldowns and effects.
+   - **Resource Component**: Stores information about resources, such as type and quantity, that an entity can gather or use.
+   - **Crafting Component**: Stores data related to crafting recipes and materials required.
+   - **StatusEffect Component**: Stores data related to status effects applied to an entity, such as buffs or debuffs.
 
-5. **Game Implementation**
+
+
+
+6. **Game Implementation**
    - Create a simple game that uses the engine. Examples include:
      - A text-based adventure game where the player can navigate through different rooms and interact with objects.
      - A simple RPG with basic combat mechanics.
      - Any other creative idea that fits within the textual interface constraint.
 
-6. **User Interaction**
+7. **User Interaction**
    - Allow users to input commands to control the game (e.g., move, attack, pick up items).
    - Provide clear and informative text output to guide the player through the game.
 
