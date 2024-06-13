@@ -161,9 +161,9 @@ This assignment will help you apply the ECS architecture in a practical setting 
 - Describe your ECS engine.
 - Talk about your managers?
 - What does your entity class do?
--    Create, delete, arrange, order, etc.
+   - Create, delete, arrange, order, etc.
 - What are the 5 components you have assumed?
--    How do you manage component dependency?
+   - How do you manage component dependency?
 - What are your five systems?
 - How are you managing required compoents?
 - How do you add components to entities?
@@ -171,6 +171,6 @@ This assignment will help you apply the ECS architecture in a practical setting 
 - How do systems work together?
 - How are you (are you) using version control?
 - What is the game you'll be developing using the engine?
--    Conpcets, object, features, functionality
+   - Conpcets, object, features, functionality
 
 
