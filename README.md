@@ -29,7 +29,7 @@ For this assignment, you will work in teams of 2 or 3 to develop a simple textua
 2. **Basic Systems**
 - You must include at least 5 systems.
 - For each system, you have to analyze, understand, and include purpose, required components, and functionality. Example systems include. 
-      - **Input System**: Handle user input and convert it into game actions.
+   - **Input System**: Handle user input and convert it into game actions.
       - **Render System**: Output the current game state to the console.
       - **Movement System**: Update entity positions based on user input or predefined behavior.
       - **Health System**: Manage health-related components and interactions (e.g., damage, healing).
