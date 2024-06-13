@@ -153,3 +153,24 @@ For this assignment, you will work in teams of 2 or 3 to develop a simple textua
   - Look up text-based adventure games or simple RPGs for inspiration.
 
 This assignment will help you apply the ECS architecture in a practical setting and develop a foundational understanding of game engine development in C++. Good luck, and have fun!
+
+
+
+## Presentation at 3pm on June 13th
+- Who are the members of the team?
+- Describe your ECS engine.
+- Talk about your managers?
+- What does your entity class do?
+-    Create, delete, arrange, order, etc.
+- What are the 5 components you have assumed?
+-    How do you manage component dependency?
+- What are your five systems?
+- How are you managing required compoents?
+- How do you add components to entities?
+- How do you use the systems?
+- How do systems work together?
+- How are you (are you) using version control?
+- What is the game you'll be developing using the engine?
+-    Conpcets, object, features, functionality
+
+
